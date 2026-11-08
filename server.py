@@ -46,4 +46,8 @@ def codeforces_submissions(
 
 
 if __name__ == "__main__":
+    import sys
+
+    print("Starting CodeProfile MCP Server...", file=sys.stderr)
+
     mcp.run(transport="stdio")
